@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4395CE"
+    tools:context=".loginActivity">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_99sdp"
+        android:layout_marginLeft="@dimen/_99sdp"
+        android:layout_marginTop="@dimen/_130sdp"
+        android:layout_marginEnd="@dimen/_101sdp"
+        android:layout_marginRight="@dimen/_101sdp"
+        android:fontFamily="casual"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#2D3B88"
+        android:textSize="@dimen/_32sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@+id/text_login"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Enter username"
+        android:textAlignment="center"
+        android:background="@drawable/border_text"
+        android:textColor="#9C27B0"
+        android:textSize="@dimen/_20sdp" />
+
+    <EditText
+        android:id="@+id/password_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@+id/username_view"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_21sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Enter password"
+        android:textAlignment="center"
+        android:background="@drawable/border_text"
+        android:textColor="#1D779B"
+        android:textSize="@dimen/_20sdp" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/password_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_87sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginRight="@dimen/_70sdp"
+        android:textSize="@dimen/_21sdp"
+        android:background="@drawable/border_btn"
+        android:text="Login"
+        android:textColor="#fff" />
+
+</RelativeLayout>
